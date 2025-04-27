@@ -11,3 +11,82 @@
 }
 
 /* Write your code below this */
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 30px;
+}
+.navbar-link ul{
+  display: flex;
+  gap: 30px;
+}
+.navbar-link ul li{
+  font-style: none;
+  list-style-type: none;
+}
+.navbar-link ul li a{
+  text-decoration: none;
+  font-style: none;
+}
+button{
+  background-color: rgb(82,100,126);
+  padding:5px 10px 5px 10px;
+  border-radius: 5px;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url('/images/hero.png');
+    height: 500px;
+    padding-top: 219px;
+    padding-left: 103px;
+  }
+
+  .journey {
+    background: #618379;
+    padding: 57px 0;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 57px;
+  }
+  
+  .journey-list {
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+    justify-content: space-between;
+  }
+  
+  .journey-card {
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 40px;
+    color:gray;
+  }
+  
+  .journey-image {
+    border-radius: 25px;
+    margin-bottom: 25px;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: black;
+  }
+  footer {
+    background: #333232;
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
